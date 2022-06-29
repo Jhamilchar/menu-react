@@ -1,11 +1,14 @@
+import Navbar from "./Navbar";
+
+
 const App = () => {
   return (
    <header>
     <div className="nav-area">
-     navbar content
-     appa
-
-     a
+        <a href="/#" className="logo">
+          Logo
+        </a>
+        <Navbar />
     </div>
    </header>
   );
