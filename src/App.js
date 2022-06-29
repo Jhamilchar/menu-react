@@ -1,18 +1,14 @@
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <a className='unic' href="https://google.com">Home</a>
-        <div class="vertical-menu">
-          <a className='links-hover' href="https://google.com">Link 1</a>
-          <a className='links-hover' href="https://google.com">Link 2</a>
-          <a className='links-hover' href="https://google.com">Link 3</a>
-          <a className='links-hover' href="https://google.com">Link 4</a>
-        </div>
+   <header>
+    <div className="nav-area">
+     navbar content
+     appa
+
+     a
     </div>
-
+   </header>
   );
-}
-
-export default App;
+ };
+ 
+ export default App;
